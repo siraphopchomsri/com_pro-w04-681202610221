@@ -1,9 +1,9 @@
 #include <stdio.h> // สำหรับใช้ฟังก์ชัน printf()
 
 int main() { // ประกาศตัวแปรและกำหนดค่าเริ่มต้น
-    char nameInitial = 'F'; // Data Type: char (สำหรับเก็บอักขระเดี่ยว)
-    int age = 20;           // Data Type: int (สำหรับเก็บจำนวนเต็ม)
-    float weight = 48.5f;   // Data Type: float (สำหรับเก็บเลขทศนิยม, ใช้ 'f' ต่อท้ายเพื่อระบุว่าเป็น float literal)
+    char nameInitial = 'Male'; // Data Type: char (สำหรับเก็บอักขระเดี่ยว)
+    int age = 18;           // Data Type: int (สำหรับเก็บจำนวนเต็ม)
+    float weight = 60.5f;   // Data Type: float (สำหรับเก็บเลขทศนิยม, ใช้ 'f' ต่อท้ายเพื่อระบุว่าเป็น float literal)
     char gender[] = "Female"; // Data Type: char array (สำหรับเก็บข้อความ, ใน C คืออาร์เรย์ของ char)
 
     // แสดงผลลัพธ์ออกทางหน้าจอ
