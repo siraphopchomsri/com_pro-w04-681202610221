@@ -1,10 +1,15 @@
-//กรณีที่ 1: ประกาศตัวแปร score เป็นชนิด int และกำหนดค่า 90.5
+#include <stdio.h>
 
-#include <stdio.h> // เรียกใช้ไลบรารีมาตรฐานสำหรับฟังก์ชัน Input/Output
+void countCall() {
+    int counter = 0; // Non-static variable
+    counter++;
+    printf("Call Function: Counter = %d\n", counter);
+}
 
 int main() {
-    int score = 90.5; // ประกาศตัวแปร score เป็นชนิด int (จำนวนเต็ม) และพยายามกำหนดค่า 90.5
-    printf("(int score = 90.5;) %d\n", score); // แสดงผลตัวแปร score
-    printf("score: %d\n", score); // แสดงผลตัวแปร score
-    return 0; // คืนค่า 0 เมื่อโปรแกรมทำงานเสร็จสมบูรณ์
+    printf("Starting function calls...\n");
+    countCall();
+    printf("After first call:\n");
+    countCall();
+    return 0;
 }
